@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int fac(int a, int b)
@@ -14,7 +14,7 @@ void main()
 	setlocale(LC_ALL, "Rus");
 	int a, b=1;
 
-	cout << "Ââåäèòå ôàêòîðèàë ÷èñëà: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð°: "; cin >> a;
 
 	int z = fac(a, b);
 
