@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 
@@ -12,14 +12,11 @@ int step(int a, int b, int c)
 }
 void main()
 {
-
 	setlocale(LC_ALL, "rus");
 	int a, b, c=1;
-	cout << "Âåäèòå ÷èñëî: "; cin >> a;
-cout << "Ââåäèòå ñòåïåíü: "; cin >> b;
-
-
+	cout << "Ð’ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ: "; cin >> b;
 	int z = step (a, b, c);
-	cout << a << " Â ñòåïåíè " << b << " = " << z;
+	cout << a << " Ð’ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸ " << b << " = " << z;
 }
 
